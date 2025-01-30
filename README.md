@@ -2,7 +2,7 @@
 
 This project fine-tunes DistilBERT for sentiment analysis on the IMDb dataset, predicting whether a movie review is positive or negative. It includes a Gradio interface for easy real-time testing.
 
-The model is available on Hugging Face: [DistilBERT IMDb Model](https://huggingface.co/dorukan/distil-bert-imdb)
+The model is available on Hugging Face: [DistilBERT IMDb Model](https://huggingface.co/dorukan/distilbert-base-uncased-bert-finetuned-imdb)
 
 ## Project Structure:
 
