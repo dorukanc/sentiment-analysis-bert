@@ -4,8 +4,8 @@ import torch
 
 # Load the trained model and tokenizer
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
-model = AutoModelForSequenceClassification.from_pretrained("my_awesome_model/checkpoint-150").to(device)
-tokenizer = AutoTokenizer.from_pretrained("my_awesome_model/checkpoint-150")
+model = AutoModelForSequenceClassification.from_pretrained("dorukan/distilbert-base-uncased-bert-finetuned-imdb").to(device)
+tokenizer = AutoTokenizer.from_pretrained("dorukan/distilbert-base-uncased-bert-finetuned-imdb")
 
 # Function to make predictions
 def predict(text):
